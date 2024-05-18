@@ -9,4 +9,4 @@ def home(request):
     context = {
         'students': students
     }
-    return render(request, 'home.html', context)
+    return render(request, 'page1.html', context)
