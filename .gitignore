@@ -37,8 +37,8 @@ share/python-wheels/
 *.err
 
 # Local database
-db.sqlite3
-db.sqlite3-journal
+# db.sqlite3
+# db.sqlite3-journal
 
 # Static and media files
 staticfiles/
