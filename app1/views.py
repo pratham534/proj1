@@ -6,4 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 def home(request):
     students = Student.objects.all()
-    return JsonResponse({'students': list(students.values())})
+    context = {
+        'students': students
+    }
+    return render(request, 'home.html', context)
