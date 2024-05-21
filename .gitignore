@@ -41,8 +41,8 @@ share/python-wheels/
 # db.sqlite3-journal
 
 # Static and media files
-staticfiles/
-# media/
+# staticfiles/
+media/
 
 # Django stuff:
 *.pot
@@ -82,7 +82,7 @@ celerybeat-schedule
 celerybeat.pid
 
 # Django static files
-# static/
+static/
 
 # Jupyter Notebook
 .ipynb_checkpoints
