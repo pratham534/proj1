@@ -42,7 +42,7 @@ share/python-wheels/
 
 # Static and media files
 staticfiles/
-media/
+# media/
 
 # Django stuff:
 *.pot
