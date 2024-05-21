@@ -1,15 +1,16 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" type="text/css" href="{% static 'css/page1.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'page1.css' %}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="heading">Page1</title>
+    <title className="heading">Page1</title>
 </head>
 <body>
-    <h1 class="hello-mess">Hello world!</h1>
+    <h1 class="hello">Hello world!</h1>
     <p>This is page1</p>
-    <h4 class="list-detail">List of Students and Roll no.</h4>
+    <h4 className="list-detail">List of Students, Roll no. and Company</h4>
     {% for s in students %}
         <p>{{ s.name }} - {{ s.roll }} - {{ s.company.name }}</p>
     {% endfor %}
